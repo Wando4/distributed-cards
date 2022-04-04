@@ -14,10 +14,16 @@ body {
   margin: 0;
 }
 
-h1, h2 {
-  font-family: "Denk One", sans-serif;
+h1 {
   color: #623b0c;
-  margin: .25em;
+  margin: .27em 0;
+  font-family: "Denk One", sans-serif;
+}
+
+h2 {
+  color: #623b0c;
+  margin-top: .2em;
+  font-family: "Denk One", sans-serif;
 }
 
 
@@ -25,20 +31,20 @@ ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  list-style: none;
   border-radius: 8px;
   padding-left: 0;
   padding-top: .6em;
   margin: .3em;
+  list-style: none;
 }
 
 li {
   display: flex;
-  border: 2px solid #623b0c;
   flex-direction: column;
+  background-color: #ede3db;
+  border: 2px solid #623b0c;
   padding: 1em;
   border-radius: 8px;
-  background-color: #ede3db;
 }
 
 a {
@@ -46,9 +52,9 @@ a {
   background-color: #623b0c;
   border-radius: 8px;
   text-decoration: none;
-  margin: auto;
+  margin-top: auto;
   padding: .6em;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 ul {
@@ -56,7 +62,8 @@ ul {
 }
 
 p {
-  padding: .4rem 0;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
 }
 
 img {
