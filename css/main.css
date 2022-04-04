@@ -39,3 +39,21 @@ li {
   border-radius: 8px;
   background-color: #ede3db;
 }
+
+a {
+  color: #fff;
+  background-color: #623b0c;
+  border-radius: 8px;
+  text-decoration: none;
+  margin: auto;
+  padding: .6em;
+justify-content: space-between;
+}
+
+ul {
+  grid-column: auto;
+}
+
+p {
+  padding: 0.4rem 0;
+}
