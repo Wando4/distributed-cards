@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: Georgia;
+  font-family: Georgia, serif;
   line-height: 1.5;
 }
 
@@ -10,14 +10,14 @@ html {
 
 body {
   background-color: #f5f2f0;
-  padding: 0.75rem;
+  padding: .75rem;
   margin: 0;
 }
 
 h1, h2 {
   font-family: "Denk One", sans-serif;
   color: #623b0c;
-  margin: 0.25em;
+  margin: .25em;
 }
 
 
@@ -27,8 +27,9 @@ ol {
   gap: 1rem;
   list-style: none;
   border-radius: 8px;
-  padding: 0.6em 0 0 0;
-  margin: 0.3em;
+  padding-left: 0;
+  padding-top: .6em;
+  margin: .3em;
 }
 
 li {
@@ -46,7 +47,7 @@ a {
   border-radius: 8px;
   text-decoration: none;
   margin: auto;
-  padding: 0.6em 2em 0.6em;
+  padding: .6em;
   justify-content: flex-end;
 }
 
@@ -55,7 +56,7 @@ ul {
 }
 
 p {
-  padding: 0.4rem 0;
+  padding: .4rem 0;
 }
 
 img {
